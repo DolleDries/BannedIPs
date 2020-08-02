@@ -1,0 +1,33 @@
+# Resource file used by the Document class of the HTML module
+from HTMLcolors import *
+from HTMLgen import *
+
+MetaList = []
+MetaList.append( str(Meta(equiv="Cache-Control", content="max-age=0")) )
+MetaList.append( str(Meta(equiv="Expires", content="0")) )
+MetaList.append( str(Meta(equiv="Cache-Control", content="no-cache")) )
+MetaList.append( str(Meta(equiv="PRAGMA", content="NO-CACHE")) )
+
+MetaTags = ''.join(MetaList)
+
+stylesheet = 'Menu.css'
+title	   = "Banned IPno's"
+#author     = '2020'
+#email      = ''
+bgcolor    = WHITE
+textcolor  = BLACK
+linkcolor  = RED
+vlinkcolor = RED6
+meta       = MetaTags
+banner     = ('images/blank.gif', 1, 1)
+logo       = ('images/blank.gif', 1, 1)
+blank      = ('images/blank.gif', 1, 1)
+home       = ('images/blank.gif', 1, 1)
+prev       = ('images/blank.gif', 1, 1)
+next       = ('images/blank.gif', 1, 1)
+top        = ('images/blank.gif', 1, 1)
+#home       = ('images/home.gif', 1, 1)
+#prev       = ('images/back.gif', 1, 1)
+#next       = ('images/next.gif', 1, 1)
+#top        = ('images/top.gif', 1, 1)
+# background = 'images/texturec.jpg'

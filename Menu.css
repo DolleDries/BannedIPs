@@ -1,0 +1,42 @@
+/* $Id: HTML.css 129 2010-08-24 11:49:23Z andre $ */
+
+BODY {
+ background-color: white; 
+ background: #fff url(images/gradient_left_bg.gif) top left repeat-x;	
+
+ color: black;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 11px; 
+ margin-right: 0.75in;
+}
+PRE {
+ margin-left: 0.4in; 
+ font-family: Lucida sans typewriter, fixed, courier 
+ font-size: 11px; 
+}
+table.menu {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ font-size: 13px;
+ width: 190px;
+ border-spacing: 3px;
+ border: 0px
+}
+td.menuhead {
+ background-color: #A6CEE3;
+ color: white;
+}
+td.menuoption {
+ background-color: #EEEEEE;
+}
+td.menuinfo {
+ font-weight: normal;
+ font-size: 11px;
+}
+td.menushow {
+ font-weight: lighter;
+ background-color: #EEEEEE;
+}
+td {
+ font-size: 13px;
+}
